@@ -1,0 +1,22 @@
+//the following is a comment but due to the 'main' tag, it is read as a command
+// main: style.scss
+
+// '$' marks a variable
+$theme:(
+    background: #00bbcc,
+    borders: #e1e5eb,
+    light: #fff,
+    section: #52627b,
+);
+
+$nav:(
+    active: #007bff,
+    icon: #caceda,
+    text: #3d5170,
+);
+
+$layout:(
+    navbar: 3.5rem,
+    rootSize: 14px,
+    sidebar: 15rem,
+);
